@@ -1,0 +1,28 @@
+Unsupervised Learning-Based Trading Strategy
+
+Introduction
+The project "Unsupervised Learning Trading Strategy" aims to explore the application of unsupervised machine learning techniques to develop a trading strategy that can operate without labeled training data. This approach leverages the power of clustering, anomaly detection, and dimensionality reduction to uncover patterns and insights from financial market data.
+
+Methodology
+1. Data Collection: Historical price data from various financial instruments (stocks, ETFs, cryptocurrencies) was gathered. Additional features such as trading volume and volatility indicators were also included to enrich the dataset.
+   
+2. Preprocessing: The collected data underwent preprocessing steps, including normalization and handling missing values, to ensure the quality and consistency of the input for the unsupervised learning algorithms.
+
+3. Algorithm Selection: Various unsupervised learning algorithms were implemented, including:
+   - K-Means Clustering: Used to identify distinct market regimes based on price movements and volume patterns.
+   - Hierarchical Clustering: Applied to categorize different assets based on their correlation in performance.
+   - Principal Component Analysis (PCA): Utilized for dimensionality reduction to visualize data and identify underlying factors influencing asset movements.
+
+4. Strategy Development: Based on the results from the clustering algorithms, trading signals were generated. For instance, assets in the same cluster that exhibited a similar trend were identified for potential long or short positions.
+
+5. Backtesting and Evaluation: The trading strategy was backtested using historical data to evaluate its performance against benchmark indices. Key performance metrics such as Sharpe ratio, maximum drawdown, and overall return were analyzed.
+
+Results
+The unsupervised learning approach revealed several key insights:
+- Distinct clusters of assets that moved in tandem during specific market conditions were identified.
+- The PCA results indicated that a small number of factors could explain a significant portion of the variance in asset returns.
+- Backtesting results showed promising returns, although volatility and risk management measures are critical for practical application.
+
+Conclusion
+The project "Unsupervised Learning Trading Strategy" demonstrates the potential of leveraging unsupervised learning techniques in financial markets. The initial findings suggest that clustering and dimensionality reduction can provide valuable insights that traditional methods may overlook. Moving forward, the integration of supervised learning methods and real-time data could enhance the strategy's robustness and adaptability.
+
